@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+    body{
+        background-color: rgb(249, 191, 84);
+    }
+    *{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+.inner{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width:100%;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.inner .box{
+    padding: 10px 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 310px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.outer{
+    display: block;
+    width: 100%;    
+}
+
+h2{
+    font-size: large;
+}
+p{
+    text-align: left;
+    font-size: 15px;
+    padding:10px 50px;
+}
+h3{
+    padding:0;
+    margin:0;
+    padding-top: 20px;
+    margin-bottom: -30px;
+}
+h4{
+    padding:0;
+    margin:0;
+    padding-bottom: 5px;
+    margin-top: -30px;
+}
+h1{
+    font-size: 45px;
+    
+}
+
+.box .innerbox{
+    background-color:rgb(243, 250, 250);
+    width:50%;
+    padding: 0 30px 0 30px;
+    
+}
+a,h4{
+    text-decoration: none;
+    color:blue;
+}
+a{
+    padding-top: 60px;
+}
+
+@media(max-width:1300px){
+
+   
+    .inner{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width:100%;
+        justify-content: space-around;
+        text-align: center;
+        grid-gap: 50px;
+        
+    }
+    .inner .box{
+        max-width: 310px;
+    }
+}
+@media(max-width:1024px){
+
+   
+    .inner{
+        display: grid;
+        grid-template-columns: auto auto;
+        width:100%;
+        justify-content: space-around;
+        text-align: center;
+        grid-gap: 50px;
+        
+    }
+    .inner .box{
+        max-width: 350px;
+    }
+}
+@media(max-width:560px){
+    .inner{
+        display: grid;
+        grid-template-columns: auto;
+        width:100%;
+        justify-content: space-around;
+        text-align: center;
+        grid-gap: 50px;
+        
+    }
+    .inner .box{
+        max-width: 350px;
+    }
+}
+</style>
+<body>
+    
+    <div class="outer">
+
+        <div class="inner">
+
+            <div class="box">
+<h2>Private Limited Company</h2>
+<div class="innerbox">
+    <h3>Starting</h3>
+    <h1><sup>₹</sup>999</h1>
+    <h4>+Govt Fees</h4>
+   </div>
+<p>The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from
+    shareholders.</p>
+    <a href="#">Know More</a>
+            </div>
+            <div class="box">
+                <h2>Limited Limited Partnership</h2>
+                <div class="innerbox">
+                 <h3>Starting</h3>
+                 <h1><sup>₹</sup>999</h1>
+                 <h4>+Statutory Fees</h4>
+                </div>
+                 <p>The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from
+                    shareholders.</p>
+                    <a href="#">Know More</a>
+            </div>
+            <div class="box">
+                <h2>One Person Company</h2>
+                <div class="innerbox">
+                    <h3>Starting</h3>
+                    <h1><sup>₹</sup>5998</h1>
+                    <h4>*All Inclusive</h4>
+                   </div>
+                <p>The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from
+                    shareholders.</p>
+                    <a href="#">Know More</a>
+            </div>
+            <div class="box">
+                <h2>Partnership Firm</h2>
+                <div class="innerbox">
+                    <h3>Starting</h3>
+                    <h1><sup>₹</sup>999</h1>
+                    <h4>+Statutory Fees</h4>
+                   </div>
+                <p>The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from
+                    shareholders.</p>
+                    <a href="#">Know More</a>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
